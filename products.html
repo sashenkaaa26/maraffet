@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maraffet Studio</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.css" rel="stylesheet" />
+  <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+  <div class="preloader">
+    <div class="preloader_image"></div>
+  </div>
+  <header>
+    <a href="index.html" id="mainPage">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+     <a id="nav-menu" class="nav-menu ">&#9776; </a>
+     <ul id="list_menu">
+       <li><a href="services.html">Наші послуги</a></li>
+       <li><a href="price.html">Прайс</a></li>
+       <li><a href="reviews.html">Відгуки</a></li>
+       <li><a href="contacts.html">Контакти</a></li>
+       <li><a href="aboutus.html">Про нас</a></li>
+       <li><a href="products.html" class="activeMenu">Продукція</a></li>
+     </ul>
+    </div>
+    <button id="header_button" class="open_modal">Записатись онлайн</button>
+    <div id="modal" class="modal bounceIn">
+      <div id="close_modal">+</div>
+      <div class="modal_txt">
+        <form class="decor" action="telegram_bot.php" method="POST" >
+          <div class="form-left-decoration"></div>
+          <div class="form-right-decoration"></div>
+          <div class="circle"></div>
+          <div class="form-inner">
+          <h3>Ми зв'яжимось з вами! </h3>
+          <input type="text" name="user_name"id="user_name" class="field" placeholder="Введіть ваше ФІО">
+          <input type="text" name="user_phone" id="user_phone" class="field" placeholder="Номер телефону">
+          <input type="email" name="user_email"id="user_email" class="field" placeholder="Email"> 
+          <input type="text" name="date" id="datepicker" placeholder="Дата">
+          <input type="submit" id="submit_button" value="Отправить">
+          </div>
+        </form>
+      </div>
+   </div>
+   <div class="header__cart cart" tabindex="0">
+     <div class="cart_img">
+      <img src="image/premium-icon-shop-cart-5821012.png" alt="">
+      <span class="cart__quantity">0</span>
+     </div>
+     <div class="cart-content">
+      <ul class="cart-content__list" data-simplebar>
+      </ul>
+      <div class="cart-content__bottom">
+        <div class="cart-content__fullprice">
+          <span>Загальна сума:</span>
+          <span class="fullprice">3453</span>
+        </div>
+        <button class="cart-content__btn btn" data-graph-path="modalCart" data-graph-animation="fadeInUp">Оформити замовлення</button>
+      </div>
+     </div>
+   </div>
+   <div class="modalCart">
+    <div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modalCart">
+      <div class="modal-content order-modal__content">
+				<div class="order-modal__top">
+					<h2 class="order-modal__title">Оформлення замовлення</h2>
+          <div class="modal__close">&#10006;</div>
+				</div>
+				<div class="order-modal__info">
+					<div class="order-modal__quantity order-modal__info-item">Товарів у замовленні: <span>3 шт</span></div>
+					<div class="order-modal__summ order-modal__info-item">Загальна сума замовлення: <span>568 грн</span></div>
+					<div class="order-modal__products order-modal__info-item">
+						<button class="order-modal__btn">Склад замовлення</button>
+						<ul class="order-modal__list">
+						</ul>
+					</div>
+				</div>
+				<form action="#" class="order-modal__form order" >
+					<label class="order__label">
+						<span class="order__text">Ваше ФІО</span>
+						<input type="text" name="nameforCart" class="order__input" id="nameforCart">
+					</label>
+					<label class="order__label">
+						<span class="order__text">Номер телефона</span>
+						<input type="tel" name="phoneforCart" class="order__input" id="phoneforCart">
+					</label>
+					<label class="order__label">
+						<span class="order__text">Ваш email</span>
+						<input type="mail" name="emailforCart" class="order__input" id="emailforCart">
+					</label>
+					<button class="order__btn btn">Замовити</button>
+				</form>
+			</div>
+    </div>
+   </div>
+  </header>
+  <div id="products_text">
+    <h1>Товари, які ви можете придбати в нашому салоні!</h1>
+    <img src="image/free-icon-spirals-of-vines-30056.png" alt="" id="productsImg" class="animate">
+  </div>
+  <div id ="productsBlock"> 
+    <div class="productsColumn">
+      <div class="product-item product">
+        <img src="image/abril.png" id="abril" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Сировотка для волосся з кератином Abril et Nature Keratin Line Treatment</h3>
+            <span class="price product-price__current">900 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/abrilmask.png" id="abrilmask" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Маска для волосся, з кератином -   Abril et Nature Instant Mask Keratin</h3>
+            <span class="price product-price__current">800 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/abrilshampoopng.png" id="abrilshampoo1" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Відновлювальний шампунь для волосся Abril et Nature Keratin Bain Shampoo з кератином, 1 л</h3>
+            <span class="price product-price__current">1968 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/abrilshampoo2.png" id="abrilshampoo2" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Відновлювальний шампунь для волосся Abril et Nature Keratin Bain Shampoo з кератином, 250мл</h3>
+            <span class="price product-price__current">900 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+    </div>
+    <div class="productsColumn">
+      <div class="product-item product">
+        <img src="image/keune.png" id="keune" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Шампунь «Основне живлення» Vital Nutrition  Shampoo Keune,300 мл</h3>
+            <span class="price product-price__current">720 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/keune2.png" id="keune2" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Себо-регулюючий шампунь - Keune Care Derma Regulatе Shampoo,300 мл</h3>
+            <span class="price product-price__current">650 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/keune3.png" id="keune2" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Шампунь "Кератиновий комплекс" - Keune Care Line Keratin Smoothing Shampoo</h3>
+            <span class="price product-price__current">700 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/keune4.png" id="keune3" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">М'який шампунь для пофарбованного волосся Keune Care Tinta Color Shampoo, 300 мл</h3>
+            <span class="price product-price__current">720 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+    </div>
+    <div class="productsColumn">
+      <div class="product-item product">
+        <img src="image/conditionerKeune1.png" id="keune" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Кондиціонер "Основне харчування" - Keune Care Line Nutrition Conditioner</h3>
+            <span class="price product-price__current">800 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/conditionerKeune2.png" id="keune" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Кондиціонер “Срібний Блиск”/ Care Silver Savior Conditioner</h3>
+            <span class="price product-price__current">820 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/conditionerKeune3.png" id="keune" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Кондиціонер “Сяйво Кольору” / Care Color Brillianz Conditioner</h3>
+            <span class="price product-price__current">800 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+      <div class="product-item product">
+        <img src="image/conditionerKeune4.png" id="keune" class="image-switch__img img">
+        <div class="product-list">
+          <h3 class="product__title">Кондиціонер “Тінта Колор”/ Care Tinta Color Conditioner</h3>
+            <span class="price product-price__current">1000 грн.</span>
+            <a href="#" class="button product__btn btn" onclick="return false">В кошик</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <a href="index.html" id="mainPage2">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+      <ul id="list_menu">
+        <li><a href="services.html">Послуги</a></li>
+        <li><a href="price.html">Прайс</a></li>
+        <li><a href="reviews.html">Відгуки</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="aboutus.html">Про нас</a></li>
+        <li><a href="products.html">Продукція</a></li>
+      </ul>
+     </div>
+    <div id="networks">
+      <p>Приєднуйтесь до нас</p>
+      <div id="networks_links">
+        <a href="https://www.instagram.com/"><img src="image/free-icon-instagram-2111463.png" alt=""></a>
+        <a href="https://web.telegram.org/k/"><img src="image/premium-icon-telegram-3670070.png" alt=""></a>
+        <a href="https://uk-ua.facebook.com/"><img src="image/free-icon-facebook-174848.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="javascript/simplebar.js"></script>
+  <script src="javascript/modalCart.js"></script>
+  <script src="javascript/common.js"></script>
+  <script src="javascript/products.js"></script>
+</body>
+</html>

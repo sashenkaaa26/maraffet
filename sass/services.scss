@@ -1,0 +1,842 @@
+@media(min-width:360px) and (max-width:404.9px){
+  #servicesInfo{
+    color: white;
+    background: rgb(171, 167, 167);
+  }
+  #servicesInfo h1{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 28px;
+  }
+  #servicesInfo h2{
+    width: 320px;
+    margin-left: 50px;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  #container_services{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: rgb(33, 33, 33);
+  }
+  #haircut{
+    width: 100%;
+    // margin-left: 50px;
+    margin-right: 25px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #haircut img{
+    width: 150px;
+    margin-top: 45px;
+  }
+  #haircut_text p{
+   margin-top: -25px;
+   padding-left: 10px;
+   font-size:13px ;
+   color: gray;
+   clear: both;
+  }
+  #haircut_text h1{
+   color: rgb(69, 68, 68);
+   font-size:medium;
+   transform: translate(-120px,-10px);
+  }
+  #haircut_text button{
+    width: 120px;
+    margin-top: 13px;
+    padding: 8px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #hair_coloring{
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #hair_coloring img{
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 150px;
+    transform: translateX(-40px);
+  }
+  #hair_coloring_text p{
+    margin-top: -20px;
+    font-size:12px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #hair_coloring_text h1{
+    transform: translate(190px,-15px);
+    font-size: 15px;
+    color: rgb(69, 68, 68);
+  }
+  #hair_coloring_text button{
+    width: 120px;
+    margin-top: 30px;
+    padding: 8px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #laser_hair_removal{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #laser_hair_removal img{
+    width: 150px;
+    margin-top: 70px;
+  }
+  #laser_text p{
+    margin-top:-10px;
+    padding-left: 10px;
+    font-size:12px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #laser_text h1{
+    color: rgb(69, 68, 68);
+    font-size: 15px;
+    transform: translate(-130px,0px);
+  }
+  #laser_text button{
+    width: 130px;
+    margin-top: 10px;
+    padding: 8px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #sugaring{
+    width: 100%;
+    margin-top: 20px;
+    // margin-left: 50px;
+    margin-right: 25px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #sugaring img{
+    width: 140px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  #sugaring p{
+    margin-top: -20px;
+    font-size:13px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #sugaring h1{
+    font-size: 18px;
+    color: rgb(69, 68, 68);
+    transform: translate(190px,-10px);
+  }
+  #sugaring button{
+    margin-top: 20px;
+    padding: 8px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+   }
+  #servicesFooter{
+    margin-top: 0px;
+  }
+}
+@media(min-width:405px) and (max-width:799.9px){
+  #servicesInfo{
+    // text-align: justify;
+    color: white;
+    background: rgb(171, 167, 167);
+  }
+  #servicesInfo h1{
+    text-align: justify;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 28px;
+  }
+  #servicesInfo h2{
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  #container_services{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: rgb(33, 33, 33);
+  }
+  #haircut{
+    width: 100%;
+    margin-right: 25px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #haircut img{
+    width: 150px;
+    margin-top: 30px;
+  }
+  #haircut_text p{
+   padding-left: 10px;
+   font-size:13px ;
+   color: gray;
+   clear: both;
+  }
+  #haircut_text h1{
+   color: rgb(69, 68, 68);
+   font-size:medium;
+   transform: translate(-120px,-10px);
+  }
+  #haircut_text button{
+    margin-top: 10px;
+    padding: 5px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #hair_coloring{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #hair_coloring img{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    transform: translateX(-25px);
+  }
+  #hair_coloring_text p{
+    font-size:12px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #hair_coloring_text h1{
+    transform: translate(180px,-17px);
+    font-size: 15px;
+    color: rgb(69, 68, 68);
+  }
+  #hair_coloring_text button{
+    width: 120px;
+    margin-top: 10px;
+    padding: 4px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #laser_hair_removal{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #laser_hair_removal img{
+    width: 150px;
+    margin-top: 70px;
+  }
+  #laser_text p{
+    padding-left: 10px;
+    font-size:12px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #laser_text h1{
+    color: rgb(69, 68, 68);
+    font-size: 15px;
+    transform: translate(-130px,0px);
+  }
+  #laser_text button{
+    margin-top: 20px;
+    padding: 5px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #sugaring{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #sugaring img{
+    width: 150px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  #sugaring p{
+    margin-top: 20px;
+    font-size:13px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #sugaring h1{
+    font-size: 18px;
+    color: rgb(69, 68, 68);
+    transform: translate(190px,1px);
+  }
+  #sugaring button{
+    margin-top: 20px;
+    padding: 8px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+   }
+  #servicesFooter{
+    margin-top: 0px;
+  }
+}
+@media(min-width:800px) and (max-width:899.9px){
+  #servicesInfo{
+    color: white;
+    background: rgb(171, 167, 167);
+  }
+  #servicesInfo h1{
+    margin-left: 350px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 28px;
+  }
+  #servicesInfo h2{
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  #container_services{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: rgb(33, 33, 33);
+  }
+  #haircut{
+    height: 450px;
+    margin-left: 100px;
+    margin-right: 110px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #haircut img{
+    width: 250px;
+    margin-top: 50px;
+  }
+  #haircut_text p{
+   margin-top: 20px;
+   font-size:23px ;
+   letter-spacing: 1px;
+   color: gray;
+  }
+  #haircut_text h1{
+   color: rgb(69, 68, 68);
+  }
+  #haircut_text button{
+    margin-top: 20px;
+    padding: 10px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(-200px,-35px);
+  }
+  #hair_coloring{
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 110px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #hair_coloring img{
+    margin-top: 20px;
+    width: 250px;
+  }
+  #hair_coloring_text p{
+    margin-top: 20px;
+    font-size:23px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #hair_coloring_text h1{
+    color: rgb(69, 68, 68);
+  }
+  #hair_coloring_text button{
+    margin-top: 20px;
+    padding: 10px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(300px,-35px);
+  }
+  #laser_hair_removal{
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 110px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #laser_hair_removal img{
+    width: 300px;
+    margin-top: 50px;
+  }
+  #laser_text p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size:20px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #laser_text h1{
+    color: rgb(69, 68, 68);
+  }
+  #laser_text button{
+    margin-top: 20px;
+    padding: 10px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(-200px,-55px);
+  }
+  #sugaring{
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 110px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #sugaring img{
+    width: 300px;
+    margin-top: 70px;
+  }
+  #sugaring p{
+    margin-top: 20px;
+    font-size:23px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #sugaring h1{
+    color: rgb(69, 68, 68);
+  }
+  #sugaring button{
+    margin-top: 20px;
+    padding: 10px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(300px,-55px);
+   }
+  #servicesFooter{
+    margin-top: 0px;
+  }
+}
+@media(min-width:900px) and (max-width:1299.9px){
+  #servicesInfo{
+    color: white;
+    background: rgb(171, 167, 167);
+  }
+  #servicesInfo h1{
+    margin-left: 350px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 28px;
+  }
+  #servicesInfo h2{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  #container_services{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: rgb(33, 33, 33);
+  }
+  #haircut{
+    height: 450px;
+    margin-left: 100px;
+    margin-right: 110px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #haircut img{
+    width: 250px;
+    margin-top: 50px;
+  }
+  #haircut_text p{
+   margin-top: 20px;
+   font-size:23px ;
+   letter-spacing: 1px;
+   color: gray;
+  }
+  #haircut_text h1{
+   color: rgb(69, 68, 68);
+  }
+  #haircut_text button{
+    margin-top: 20px;
+    padding: 10px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #hair_coloring{
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 110px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #hair_coloring img{
+    margin-top: 20px;
+    width: 250px;
+  }
+  #hair_coloring_text p{
+    margin-top: 20px;
+    font-size:23px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #hair_coloring_text h1{
+    color: rgb(69, 68, 68);
+  }
+  #hair_coloring_text button{
+    margin-top: 20px;
+    padding: 10px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #laser_hair_removal{
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 110px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #laser_hair_removal img{
+    width: 300px;
+    margin-top: 50px;
+  }
+  #laser_text p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size:20px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #laser_text h1{
+    color: rgb(69, 68, 68);
+  }
+  #laser_text button{
+    margin-top: 20px;
+    padding: 10px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #sugaring{
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 110px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    border-radius: 50px;
+  }
+  #sugaring img{
+    width: 300px;
+    margin-top: 70px;
+  }
+  #sugaring p{
+    margin-top: 20px;
+    font-size:23px ;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  #sugaring h1{
+    color: rgb(69, 68, 68);
+  }
+  #sugaring button{
+    margin-top: 20px;
+    padding: 10px;
+    background:rgb(33, 33, 33);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+   }
+  #servicesFooter{
+    margin-top: 0px;
+  }
+}
+@media(min-width:1300px){
+#servicesFooter{
+  transform: translateY(0px);
+}
+#servicesInfo{
+  height: 400px;
+  color: white;
+  background: rgb(171, 167, 167);
+}
+#servicesInfo h1{
+  transform: translate(670px,100px);
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+#servicesInfo h2{
+  transform: translate(150px,100px);
+  margin-bottom: 20px;
+}
+#container_services{
+  padding-bottom: 250px;
+  background: rgb(33, 33, 33);
+}
+#haircut{
+  width: 1140px;
+  height: 450px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transform: translate(150px,40px);
+  background: white;
+  border-radius: 50px;
+}
+#haircut img{
+  width: 300px;
+}
+#haircut_text p{
+ width: 700px;
+ margin-top: 20px;
+ font-size:35px ;
+ letter-spacing: 1px;
+ color: gray;
+}
+#haircut_text h1{
+ transform: translateX(100px);
+ color: rgb(69, 68, 68);
+}
+#haircut_text button{
+  margin-top: 20px;
+  padding: 10px;
+  background:rgb(33, 33, 33);
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#hair_coloring{
+  width: 1140px;
+  height: 450px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transform: translate(150px,100px);
+  background: white;
+  border-radius: 50px;
+}
+#hair_coloring img{
+  width: 300px;
+  margin-top: -20px;
+  transform: translateX(40px);
+}
+#hair_coloring_text p{
+  width: 700px;
+  margin-top: 20px;
+  font-size:37px ;
+  letter-spacing: 1px;
+  color: gray;
+}
+#hair_coloring_text h1{
+  transform: translateX(110px);
+  color: rgb(69, 68, 68);
+}
+#hair_coloring_text button{
+  margin-top: 10px;
+  padding: 10px;
+  background:rgb(33, 33, 33);
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#laser_hair_removal{
+  width: 1140px;
+  height: 450px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transform: translate(150px,150px);
+  background: white;
+  border-radius: 50px;
+}
+#laser_hair_removal img{
+  width: 500px;
+}
+#laser_text p{
+  margin-top: 10px;
+  transform: translateX(30px);
+  font-size:27px ;
+  letter-spacing: 1px;
+  color: gray;
+}
+#laser_text h1{
+  transform: translateX(70px);
+  color: rgb(69, 68, 68);
+}
+#laser_text button{
+  margin-top: 10px;
+  padding: 10px;
+  background:rgb(33, 33, 33);
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: translateX(25px);
+}
+#sugaring{
+  width: 1140px;
+  height: 450px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transform: translate(150px,200px);
+  background: white;
+  border-radius: 50px;
+}
+#sugaring img{
+  width: 500px;
+  margin-left: 20px;
+}
+#sugaring p{
+  margin-top: 20px;
+  font-size:30px ;
+  letter-spacing: 1px;
+  color: gray;
+}
+#sugaring h1{
+  transform: translateX(50px);
+  color: rgb(69, 68, 68);
+}
+#sugaring button{
+  margin-top: 20px;
+  padding: 10px;
+  background:rgb(33, 33, 33);
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+}

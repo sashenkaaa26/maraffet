@@ -1,0 +1,24 @@
+.preloader{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgb(162, 158, 159);
+  z-index: 10;
+}
+.preloader_image{
+  width: 200px;
+  height: 200px;
+  background: url('../image/Rr6t.gif') no-repeat 50% 50%;
+  background-size: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.loaded .preloader{
+  display: none;
+}

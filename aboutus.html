@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.css" rel="stylesheet" />
+  <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+  <div class="preloader">
+    <div class="preloader_image"></div>
+  </div>
+  <header>
+    <a href="index.html" id="mainPage">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+     <a id="nav-menu" class="nav-menu ">&#9776; </a>
+     <ul id="list_menu">
+       <li><a href="services.html">Наші послуги</a></li>
+       <li><a href="price.html" >Прайс</a></li>
+       <li><a href="reviews.html">Відгуки</a></li>
+       <li><a href="contacts.html">Контакти</a></li>
+       <li><a href="aboutus.html" class="activeMenu">Про нас</a></li>
+       <li><a href="products.html">Продукція</a></li>
+     </ul>
+    </div>
+    <button id="header_button" class="open_modal">Записатись онлайн</button>
+    <div id="modal" class="modal bounceIn">
+      <div id="close_modal">+</div>
+      <div class="modal_txt">
+        <form class="decor" action="telegram_bot.php" method="POST" >
+          <div class="form-left-decoration"></div>
+          <div class="form-right-decoration"></div>
+          <div class="circle"></div>
+          <div class="form-inner">
+          <h3>Ми зв'яжимось з вами! </h3>
+          <input type="text" name="user_name"id="user_name" class="field" placeholder="Введіть ваше ФІО">
+          <input type="text" name="user_phone" id="user_phone" class="field" placeholder="Номер телефону">
+          <input type="email" name="user_email"id="user_email" class="field" placeholder="Email"> 
+          <input type="text" name="date" id="datepicker" placeholder="Дата">
+          <input type="submit" id="submit_button" value="Отправить">
+          </div>
+        </form>
+      </div>
+   </div>
+  </header>
+  <div id="aboutus_text">
+    <h1>Що вам варто знати про нас</h1>
+    <div class="heart"></div>
+  </div>
+  <div id="container_aboutus">
+    <div id="hair_aboutus">
+      <div id="video_aboutus">
+        <video  src="../image/SALON.mp4" width="500" height="400" controls autoplay>
+          Your browser does not support the video element.
+        </video>
+       </div>
+       <div id="text_hair_aboutus">
+         <h3>Початок життя "Maraffet Studio" - це любов нашого майстра - Олени, до волосся.<br>
+         Ще в дитинсті волосся її ляльок було підстрижено и пофарбовано в різні кольори фломастерів.Тоді вона зрозуміла,ким має бути в майбутньому.<br>
+         Після закінчення школи було пройдено багато курсів,вона працювала в різних салонах,але хотіла відчинити двері своєї студії.<br>
+        І ось 12 липня 2019 року її мрія здійснилась - відчинено "Maraffet Studio".<br>
+        Олена і зараз навчається та проходить курси підвищення кваліфікації,тому впевнено можете довіряти їй! </h3>
+       </div>
+    </div>
+    <div id="laser_aboutus">
+       <div id="text_laser_aboutus">
+        <h3> Працювати з волоссям для Олени було тільки задоволенням, але хотілось ,чогось нового,чого не роблять багато інших майстрів.Тоді був цікавим шугаринг,не всі робили його,але багато хто хотів спробувати.Олена вирішила пройти курс навчання шугарингу - і не дарма,клиієнтів одразу було багато!)А вже потім ,через два роки Оленки придбала пристрій для лазерної епіляціі,багато дівчаток почало йти до нашої студії робити видалення небажаного волосся.В загальному , в нас дуже круто і класно,приходьте,ми чекаємо на вас🖤</h3>
+       </div>
+       <div id="foto_aboutus">
+        <img src="image/201a5568-1.jpg" alt="">
+        <img src="image/chto-takoe-shugaring.jpg" alt="" id="sugaring_foto_aboutus">
+       </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1>Наші роботи</h1>
+    <div class="column">
+      <img src="image/formodal.jpg"  onclick="openModal();currentSlide(1)" class="hover-shadow" >
+    </div>
+    <div class="column">
+      <img src="image/formodal2.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="image/formodal3.jpg"onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="image/formodal4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div>
+
+  <div id="myModal" class="modalFoto">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="image/formodal.jpg" width="100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="image/formodal2.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="image/formodal3.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="image/formodal4.jpg" style="width: 100%;">
+      </div>
+  
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="image/formodal.jpg" onclick="currentSlide(1)" alt="Balayage">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="image/formodal2.jpg" onclick="currentSlide(2)" alt="Airtouch">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="image/formodal3.jpg" onclick="currentSlide(3)" alt="Balayage">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="image/formodal4.jpg" onclick="currentSlide(4)" alt="Hand Touch">
+      </div>
+    </div>
+  </div>
+  <footer id="footerAboutus">
+    <a href="index.html" id="mainPage2">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+      <ul id="list_menu">
+        <li><a href="services.html">Послуги</a></li>
+        <li><a href="price.html">Прайс</a></li>
+        <li><a href="reviews.html">Відгуки</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="aboutus.html">Про нас</a></li>
+        <li><a href="products.html">Продукція</a></li>
+      </ul>
+     </div>
+    <div id="networks">
+      <p>Приєднуйтесь до нас</p>
+      <div id="networks_links">
+        <a href="https://www.instagram.com/"><img src="image/free-icon-instagram-2111463.png" alt=""></a>
+        <a href="https://web.telegram.org/k/"><img src="image/premium-icon-telegram-3670070.png" alt=""></a>
+        <a href="https://uk-ua.facebook.com/"><img src="image/free-icon-facebook-174848.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="javascript/aboutus.js"></script>
+  <script src="javascript/common.js"></script>
+</body>
+</html>

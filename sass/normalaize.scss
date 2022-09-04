@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+@media (min-width: 370px) and(max-width:799.9px){
+  body{
+   max-width: 100%;
+   max-height: 100%; 
+  }
+}
+@media (min-width: 800px) and(max-width:1179.9px){
+  body{
+   max-width: 100%;
+   max-height: 100%; 
+  }
+}

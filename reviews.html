@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.css" rel="stylesheet" />
+  <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+  <div class="preloader">
+    <div class="preloader_image"></div>
+  </div>
+  <header>
+    <a href="index.html" id="mainPage">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+     <a id="nav-menu" class="nav-menu ">&#9776; </a>
+     <ul id="list_menu">
+       <li><a href="services.html">Наші послуги</a></li>
+       <li><a href="price.html">Прайс</a></li>
+       <li><a href="reviews.html" class="activeMenu">Відгуки</a></li>
+       <li><a href="contacts.html">Контакти</a></li>
+       <li><a href="aboutus.html">Про нас</a></li>
+       <li><a href="products.html">Продукція</a></li>
+     </ul>
+    </div>
+    <button id="header_button" class="open_modal">Записатись онлайн</button>
+    <div id="modal" class="modal bounceIn">
+      <div id="close_modal">+</div>
+      <div class="modal_txt">
+        <form class="decor" action="telegram_bot.php" method="POST" >
+          <div class="form-left-decoration"></div>
+          <div class="form-right-decoration"></div>
+          <div class="circle"></div>
+          <div class="form-inner">
+          <h3>Ми зв'яжимось з вами! </h3>
+          <input type="text" name="user_name"id="user_name" class="field" placeholder="Введіть ваше ФІО">
+          <input type="text" name="user_phone" id="user_phone" class="field" placeholder="Номер телефону">
+          <input type="email" name="user_email"id="user_email" class="field" placeholder="Email"> 
+          <input type="text" name="date" id="datepicker" placeholder="Дата">
+          <input type="submit" id="submit_button" value="Отправить">
+          </div>
+        </form>
+      </div>
+   </div>
+  </header>
+  <div id="reviews_text">
+    <h1>Відгуки наших клієнтів </h1>
+    <img src="image/free-icon-spirals-of-vines-30056.png" alt="" id="reviewsImg" class="animate">
+    <p>Залишайте свої відгуки,будемо раді побачити їх!Та виправити помічені вами помилки!</p>
+  </div>
+  <form name="addCommentForm" id="addComment">
+    <div id="name"> 
+      <label for="user_name">Ім'я:</label>
+      <input type="text" name = "user_comment_name" id="user_comment_name"></div>
+    <label for="user_comment">Відгук:</label>
+    <textarea name = "user_comment" id="comment_text"></textarea>
+    <button  onclick="startComm(); return false;" id="comment_button">Залишити відгук</button>
+  </form>
+   <div id="slider" class="slider" >
+       <div class="item">
+          <div id="item_blocks">
+            <div id="testimonials">
+              <div class="slideText">
+                <h4>Наталія Тащі</h4>
+                <p>...</p>
+                <p>Коли я збиралася пофарбуватися,було багато сумнівів ,що не підійде,буде не гарно ,але в студії Maraffet Studio,мені зробили дуже гарний блонд,за приємну ціну!)Дякую!</p>
+              </div>
+            </div>
+            <div id="testimonials">
+              <div class="slideText">
+                <h4>Дарія Разживіна</h4>
+                <p>...</p>
+                <p>Робила в даній студії процедуру Ботокс волосся,дуже сподобалося,волосся м'яке та красиве,дякую майстру!</p></div>
+            </div>
+            <div id="testimonials">
+              <div class="slideText">
+                <h4>Ірина Добрєва</h4>
+                <p>...</p>
+                <p>Прийшла в Maraffet Studio,бо мій майстер поїхав в іншу країну,жодного разу не пошкодувала ,що прийшла саме сюди,гарне обслуговування ,майсер супер!</p>
+              </div>
+            </div>
+          </div>
+       </div>
+      <div class="item">
+        <div id="item_blocks">
+          <div id="testimonials">
+            <div class="slideText">
+                <h4>Іванна Пєткова</h4>
+                <p>...</p>
+                <p>Вперше в житті зробила процедуру "Мезотерапія",довго шукала гарного майстра і нарешті знайшла ,все дуже сподобалось)</p>
+            </div>
+          </div>
+          <div id="testimonials">
+            <div class="slideText">
+                <h4>Вікторія Колєва</h4>
+                <p>...</p>
+                <p>До студії ходжу  давно і нарешті залишаю відгук,мені все дуже подобається ,гарний сервіс та обслуговування,приємна атмосфера! </p>
+            </div>
+          </div>
+          <div id="testimonials">
+            <div class="slideText">
+                <h4>Олена Ковальчук</h4>
+                <p>...</p>
+                <p>Не могла наважитись на лазерну епіляцію,довго шукала майстра,думала,що буде боляче,але все пройшло добре в Maraffet Studio)
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div id="item_blocks">
+          <div id="testimonials">
+            <div class="slideText">
+                <h4>Мирослава Попазова</h4>
+                <p>...</p>
+                <p>Робила в студії кератинове випрямлення пів року тому,досі волосся дуже гарне,якісна процедура за приємну вартість )</p>
+            </div>
+          </div>
+          <div id="testimonials">
+            <div class="slideText">
+                <h4>Марія Гоненко</h4>
+                <p>...</p>
+                <p>Прийшла в Maraffet Studio зробити шугарінг,раніше робила в іншій студії,було дуже боляче,гадала ,що і тут таке буде,але кожна процедура проходить безболісно та швидко)</p>
+            </div>
+          </div>
+          <div id="testimonials">
+            <div class="slideText">
+              <h4>Надія Солодка</h4>
+              <p>...</p>
+              <p>Дуже приємна атмосфера,та гарне обслуговування,була в салоні на фарбуванні волосся,час пройшов дуже швидко,майстер дуже приємна та весела,результат вийшов дуже крутий!)</p></div>
+          </div>
+        </div>
+      </div>
+      <a class="prev" onclick="minusSlide()">&#10094;</a>
+      <a class="next" onclick="plusSlide()">&#10095;</a>
+   </div>
+  <div class="slider-dots">
+      <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+      <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+      <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+  </div>
+
+  <footer id="rewiewsFooter">
+    <a href="index.html" id="mainPage2">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+      <ul id="list_menu">
+        <li><a href="services.html">Послуги</a></li>
+        <li><a href="price.html">Прайс</a></li>
+        <li><a href="reviews.html">Відгуки</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="aboutus.html">Про нас</a></li>
+        <li><a href="products.html">Продукція</a></li>
+      </ul>
+     </div>
+    <div id="networks">
+      <p>Приєднуйтесь до нас</p>
+      <div id="networks_links">
+        <a href="https://www.instagram.com/" target="_blank"><img src="image/free-icon-instagram-2111463.png" alt=""></a>
+        <a href="https://web.telegram.org/k/"  target="_blank"><img src="image/premium-icon-telegram-3670070.png" alt=""></a>
+        <a href="https://uk-ua.facebook.com/" target="_blank"><img src="image/free-icon-facebook-174848.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="javascript/reviews.js"></script>
+  <script src="javascript/common.js"></script>
+</body>
+</html>

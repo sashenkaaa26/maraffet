@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.css" rel="stylesheet" />
+  <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+  <div class="preloader">
+    <div class="preloader_image"></div>
+  </div>
+  <header>
+    <a href="index.html" id="mainPage">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+     <a id="nav-menu" class="nav-menu ">&#9776; </a>
+     <ul id="list_menu">
+       <li><a href="services.html">Наші послуги</a></li>
+       <li><a href="price.html">Прайс</a></li>
+       <li><a href="reviews.html">Відгуки</a></li>
+       <li><a href="contacts.html" class="activeMenu">Контакти</a></li>
+       <li><a href="aboutus.html">Про нас</a></li>
+       <li><a href="products.html">Продукція</a></li>
+     </ul>
+    </div>
+    <button id="header_button" class="open_modal">Записатись онлайн</button>
+    <div id="modal" class="modal bounceIn">
+      <div id="close_modal">+</div>
+      <div class="modal_txt">
+        <form class="decor" action="telegram_bot.php" method="POST" >
+          <div class="form-left-decoration"></div>
+          <div class="form-right-decoration"></div>
+          <div class="circle"></div>
+          <div class="form-inner">
+          <h3>Ми зв'яжимось з вами! </h3>
+          <input type="text" name="user_name"id="user_name" class="field" placeholder="Введіть ваше ФІО">
+          <input type="text" name="user_phone" id="user_phone" class="field" placeholder="Номер телефону">
+          <input type="email" name="user_email"id="user_email" class="field" placeholder="Email">
+          <input type="text" name="date" id="datepicker" placeholder="Дата"> 
+          <input type="submit" id="submit_button" value="Отправить">
+          </div>
+        </form>
+      </div>
+   </div>
+  </header>
+  <div id="contacts_text">
+    <h1 id="contactsh1">Наші контакти </h1>
+    <img src="image/free-icon-spirals-of-vines-30056.png" alt="" id="contactsImg" class="animate">
+  </div>
+  <div id="contacts_container">
+   <div id="geolocation">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1717.7209845783843!2d28.604472568721807!3d45.69249883918725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1658931926608!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+   <div id="our_contacts">
+     <h1>Адреса</h1>
+     <p>м.Болград, Проспект Соборний 1а</p>
+     <h1>Номер телефону</h1>
+     <p>380731396500</p>
+     <h1>E-mail</h1>
+     <p>maraffet.studio@gmail.com</p>
+     <h1>Години роботи</h1>
+     <p>Понеділок-Субота: 09:00 - 19:00</p>
+   </div>
+  </div>
+  <footer id="contactsFooter">
+    <a href="index.html" id="mainPage2">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+      <ul id="list_menu">
+        <li><a href="services.html">Послуги</a></li>
+        <li><a href="price.html">Прайс</a></li>
+        <li><a href="reviews.html">Відгуки</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="aboutus.html">Про нас</a></li>
+        <li><a href="products.html">Продукція</a></li>
+      </ul>
+     </div>
+    <div id="networks">
+      <p>Приєднуйтесь до нас</p>
+      <div id="networks_links">
+        <a href="https://www.instagram.com/" ><img src="image/free-icon-instagram-2111463.png" alt=""></a>
+        <a href="https://web.telegram.org/k/"  ><img src="image/premium-icon-telegram-3670070.png" alt=""></a>
+        <a href="https://uk-ua.facebook.com/" ><img src="image/free-icon-facebook-174848.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="javascript/contacts.js"></script>
+  <script src="javascript/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.css" rel="stylesheet" />
+  <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+  <div class="preloader">
+    <div class="preloader_image"></div>
+  </div>
+  <header>
+    <a href="index.html" id="mainPage">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+     <a id="nav-menu" class="nav-menu ">&#9776; </a>
+     <ul id="list_menu">
+       <li><a href="services.html">Наші послуги</a></li>
+       <li><a href="price.html" class="activeMenu">Прайс</a></li>
+       <li><a href="reviews.html">Відгуки</a></li>
+       <li><a href="contacts.html">Контакти</a></li>
+       <li><a href="aboutus.html">Про нас</a></li>
+       <li><a href="products.html">Продукція</a></li>
+     </ul>
+    </div>
+    <button id="header_button" class="open_modal">Записатись онлайн</button>
+    <div id="modal" class="modal bounceIn">
+      <div id="close_modal">+</div>
+      <div class="modal_txt">
+        <form class="decor" action="telegram_bot.php" method="POST" >
+          <div class="form-left-decoration"></div>
+          <div class="form-right-decoration"></div>
+          <div class="circle"></div>
+          <div class="form-inner">
+          <h3>Ми зв'яжимось з вами! </h3>
+          <input type="text" name="user_name"id="user_name" class="field" placeholder="Введіть ваше ФІО">
+          <input type="text" name="user_phone" id="user_phone" class="field" placeholder="Номер телефону">
+          <input type="email" name="user_email"id="user_email" class="field" placeholder="Email"> 
+          <input type="text" name="date" id="datepicker" placeholder="Дата">
+          <input type="submit" id="submit_button" value="Отправить">
+          </div>
+        </form>
+      </div>
+   </div>
+  </header>
+  <div id="price_block">
+    <div id="price_text">
+      <h1>Наш прайс</h1>
+      <img src="image/free-icon-spirals-of-vines-30056.png" alt="" id="priceImg" class="animate">
+      <p>Податок і чайові вже включені у вартість  послуг . Наші послуги доступні для кожного!)</p>
+    </div>
+    <div id="procedure_names">
+      <h2 id="name1" class="slide active">Стрижки</h2>
+      <h2 id="name2" class="slide">Процедури для волосся</h2>
+      <h2 id="name3"class="slide" >Фарбування</h2>
+      <h2 id="name4" class="slide">Лазерна епіляція</h2>
+      <h2 id="name5" class="slide">Шугаринг</h2>
+    </div>
+    <hr>
+    <div id="procedure_cost">
+      <div id="haircut_cost">
+        <div id="col1" >
+          <div id="man_haircut">
+            <h3>Чоловіча стрижка</h3>
+            <span class="line"><p id="price1">150 грн</p></span>
+            <p>Стрижка виконуються за 40-60 хвилин,під час процесу<br> робимо все,щоб вам було комфортно</p>
+          </div>
+          <div id="women_haircut1">
+            <h3>Жіноча стрижка(підстригти кінці)</h3>
+            <span class="line2"><p id="price2">200 грн</p></span>
+            <p>Стрижка виконуються за 30-40 хвилин,під час процесу<br> робимо все,щоб вам було комфортно</p>
+          </div>
+        </div>
+        <div id="col2" >
+          <div id="women_haircut2">
+            <h3>Жіноча стрижка - "Каскад"</h3>
+            <span class="line3"><p id="price3">350 грн</p></span>
+            <p>Стрижка виконуються за 60-70 хвилин,під час процесу <br>робимо все,щоб вам було комфортно</p>
+          </div>
+          <div id="women_haircut3">
+            <h3>Жіноча стрижка - "Боб"</h3>
+            <span class="line4"><p id="price4">400 грн</p></span>
+            <p>Стрижка виконуються за 70-90 хвилин,під час процесу <br>робимо все,щоб вам було комфортно</p>
+          </div>
+        </div>
+      </div>
+      <div id="hair_procedure_cost">
+        <div id="col1" >
+          <div id="keratin">
+            <h3>Кератинове випрямлення</h3>
+            <span class="line"><p id="price5">від 800 грн</p></span>
+            <p>Процес виконання процедури від  1 години і більше,<br> вартість залежить від довжини волосся</p>
+          </div>
+          <div id="botocks">
+            <h3>Ботокс волосся</h3>
+            <span class="line2"><p id="price6">від 1200 грн</p></span>
+            <p>Процес виконання процедури від  1,5 години і більше,<br> вартість залежить від довжини волосся</p>
+          </div>
+        </div>
+        <div id="col2" >
+          <div id="lamination">
+            <h3>Ламінування волосся</h3>
+            <span class="line3"><p id="price7">від 1400 грн</p></span>
+            <p>Процес виконання процедури від  1 години і більше,<br> вартість залежить від довжини волосся</p>
+          </div>
+          <div id="mesoterapy">
+            <h3>Мезотерапія</h3>
+            <span class="line4"><p id="price8">від 1500 грн</p></span>
+            <p>Процес виконання процедури від 2 годин і більше,<br> вартість залежить від довжини волосся</p>
+          </div>
+        </div>
+      </div>
+      <div id="hair_coloring_cost">
+        <div id="col1">
+          <div id="haircoloring1">
+            <h3>Мелірування</h3>
+            <span class="line"><p id="price9">від 750 грн</p></span>
+            <p>Процес фарбування триває від 2 годин і більше,<br> вартість залежить від довжини волосся</p>
+          </div>
+          <div id="haircoloring2">
+            <h3>Balayage</h3>
+            <span class="line2"><p id="price10"> від 1500 грн</p></span>
+            <p>Процес фарбування триває від 3 годин і більше,<br> вартість залежить від довжини волосся</p>
+          </div>
+        </div>
+        <div id="col2">
+          <div id="haircoloring3">
+            <h3>Airtoch</h3>
+            <span class="line3"><p id="price11">від 2000 грн</p></span>
+            <p>Процес фарбування триває  від 3,5 годин і більше,<br> вартість залежить від довжини волосся</p>
+          </div>
+          <div id="haircoloring4">
+            <h3>Hand Touch</h3>
+            <span class="line4"><p id="price12">від 2200 грн</p></span>
+            <p>Процес фарбування триває  від 4,5 годин і більше,<br> вартість залежить від довжини волосся</p>
+          </div>
+        </div>
+      </div>
+      <div id="laser_cost">
+        <div id="col1" >
+          <div id="laser1">
+            <h3>Зона бікіні</h3>
+            <span class="line"><p id="price13">650 грн</p></span>
+            <p>Процес  триває 20 хвилин,під час процедури<br> робимо все , щоб вам було комфортно</p>
+          </div>
+          <div id="laser2">
+            <h3>Ноги повністю</h3>
+            <span class="line2"><p id="price14">1200 грн</p></span>
+            <p>Процес  триває 40 хвилин,під час процедури<br> робимо все , щоб вам було комфортно</p>
+          </div>
+        </div>
+        <div id="col2">
+          <div id="laser3">
+            <h3>Пахвові западини</h3>
+            <span class="line3"><p id="price15">350 грн</p></span>
+            <p>Процес  триває 20 хвилин,під час процедури<br> робимо все , щоб вам було комфортно</p>
+          </div>
+          <div id="laser4">
+            <h3>Обличчя</h3>
+            <span class="line4"><p id="price16">450 грн</p></span>
+            <p>Процес  триває 20 хвилин,під час процедури<br> робимо все , щоб вам було комфортно</p>
+          </div>
+        </div>
+      </div>
+      <div id="sugaring_cost">
+        <div id="col1" >
+          <div id="sugaring1">
+            <h3>Зона бікіні</h3>
+            <span class="line"><p id="price17">300 грн</p></span>
+            <p>Процес  триває 30 хвилин,під час процедури<br> робимо все , щоб вам було комфортно</p>
+          </div>
+          <div id="sugaring2">
+            <h3>Пахвові западини</h3>
+            <span class="line2"><p id="price18">100 грн</p></span>
+            <p>Процес  триває 25 хвилин,під час процедури<br> робимо все , щоб вам було комфортно</p>
+          </div>
+        </div>
+        <div id="col2">
+          <div id="sugaring3">
+            <h3>Ноги повністю</h3>
+            <span class="line3"><p id="price19">350 грн</p></span>
+            <p>Процес  триває 40 хвилин,під час процедури<br> робимо все , щоб вам було комфортно</p>
+          </div>
+          <div id="sugaring4">
+            <h3>Обличчя</h3>
+            <span class="line4"><p id="price20">200 грн</p></span>
+            <p>Процес  триває 20 хвилин,під час процедури<br> робимо все , щоб вам було комфортно</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer id="priceFooter">
+    <a href="index.html" id="mainPage2">
+      <img src="image/horizontal_on_white_by_logaster.png" alt="Maraffet Studio">
+    </a>
+    <div class="menu">
+      <ul id="list_menu">
+        <li><a href="services.html">Послуги</a></li>
+        <li><a href="price.html">Прайс</a></li>
+        <li><a href="reviews.html">Відгуки</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="aboutus.html">Про нас</a></li>
+        <li><a href="products.html">Продукція</a></li>
+      </ul>
+     </div>
+    <div id="networks">
+      <p>Приєднуйтесь до нас</p>
+      <div id="networks_links">
+        <a href="https://www.instagram.com/" target="_blank"><img src="image/free-icon-instagram-2111463.png" alt=""></a>
+        <a href="https://web.telegram.org/k/"  target="_blank"><img src="image/premium-icon-telegram-3670070.png" alt=""></a>
+        <a href="https://uk-ua.facebook.com/" target="_blank"><img src="image/free-icon-facebook-174848.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="javascript/price.js"></script>
+  <script src="javascript/common.js"></script>
+</body>
+</html>

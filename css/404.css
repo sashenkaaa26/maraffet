@@ -1,0 +1,171 @@
+body {
+  background: #f6f6f6; }
+
+@media (min-width: 360px) and (max-width: 799.9px) {
+  #errorBlock {
+    margin-top: 70px;
+    margin-bottom: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+
+  #errorBlock img {
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 20px; }
+
+  #errorText {
+    margin-top: 10px;
+    color: #1b1714; }
+
+  #error_button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #212121;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-animation-name: 'play_down';
+    -moz-animation-name: 'play_up';
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px); }
+
+  @-webkit-keyframes play_top {
+    0% {
+      box-shadow: 0 0 rgba(0, 163, 182, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(0, 163, 182, 0); } }
+
+  @keyframes play_top {
+    0% {
+      box-shadow: 0 0 rgba(0, 163, 182, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(0, 163, 182, 0); } }
+  @-webkit-keyframes play_down {
+    0% {
+      box-shadow: 0 0 rgba(55, 55, 55, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(55, 55, 55, 0); } }
+  @keyframes play_down {
+    0% {
+      box-shadow: 0 0 rgba(55, 55, 55, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(55, 55, 55, 0); } } }
+@media (min-width: 800px) and (max-width: 1189.9px) {
+  #errorBlock {
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+
+  #errorBlock img {
+    height: 400px;
+    margin-left: 50px; }
+
+  #errorText {
+    margin-top: 80px;
+    font-size: 35px;
+    color: #1b1714; }
+
+  #errorText h1 {
+    font-size: 125px; }
+
+  #error_button {
+    height: 45px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #212121;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-animation-name: 'play_down';
+    -moz-animation-name: 'play_up';
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); }
+
+  @-webkit-keyframes play_top {
+    0% {
+      box-shadow: 0 0 rgba(0, 163, 182, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(0, 163, 182, 0); } }
+
+  @keyframes play_top {
+    0% {
+      box-shadow: 0 0 rgba(0, 163, 182, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(0, 163, 182, 0); } }
+  @-webkit-keyframes play_down {
+    0% {
+      box-shadow: 0 0 rgba(55, 55, 55, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(55, 55, 55, 0); } }
+  @keyframes play_down {
+    0% {
+      box-shadow: 0 0 rgba(55, 55, 55, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(55, 55, 55, 0); } } }
+@media (min-width: 1190px) {
+  #errorBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+
+  #errorBlock img {
+    height: 600px;
+    margin-left: 50px; }
+
+  #errorText {
+    margin-top: 80px;
+    font-size: 35px;
+    color: #1b1714; }
+
+  #errorText h1 {
+    font-size: 125px; }
+
+  #error_button {
+    height: 45px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #212121;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-animation-name: 'play_down';
+    -moz-animation-name: 'play_up';
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); }
+
+  @-webkit-keyframes play_top {
+    0% {
+      box-shadow: 0 0 rgba(0, 163, 182, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(0, 163, 182, 0); } }
+
+  @keyframes play_top {
+    0% {
+      box-shadow: 0 0 rgba(0, 163, 182, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(0, 163, 182, 0); } }
+  @-webkit-keyframes play_down {
+    0% {
+      box-shadow: 0 0 rgba(55, 55, 55, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(55, 55, 55, 0); } }
+  @keyframes play_down {
+    0% {
+      box-shadow: 0 0 rgba(55, 55, 55, 0.6); }
+    to {
+      box-shadow: 0 0 0 20px rgba(55, 55, 55, 0); } } }
+
+/*# sourceMappingURL=404.css.map */

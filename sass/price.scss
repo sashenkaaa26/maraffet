@@ -1,0 +1,1060 @@
+@media(min-width:360px) and (max-width:499.9px){
+  #price_block{
+    background: rgb(243, 239, 239);
+    padding-bottom: 200px;
+  }
+  #price_text h1{
+    font-size: 20px;
+    padding-top: 50px;
+    margin-left: 150px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+  color: rgb(63, 62, 62);
+  }
+  #price_text img{
+    width: 100px;
+    transform: translateX(150px);
+  }
+  #price_text p{
+    font-size: 20px;
+    margin-left: 70px;
+    padding-bottom: 20px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    color: rgb(63, 62, 62);
+  }
+  #procedure_names{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  #procedure_names h2{
+    padding: 2px;
+    font-size: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  #procedure_names .active, #procedure_names h2:hover{
+   padding: 2px;
+   color: rgb(87, 86, 86);
+   background: rgb(243, 239, 239);
+   border: 1px solid gray;
+   border-radius: 10px;
+  }
+  hr{
+    margin-right: 27px;
+    margin-left: 50px;
+  }
+  #procedure_cost{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 25px;
+    padding: 40px;
+    background:  white;
+    border-radius: 20px;
+  }
+  #procedure_cost h3{
+    font-size: 13px;
+    color: rgb(69, 67, 67);
+  }
+  #procedure_cost p{
+    color: rgb(177, 172, 172);
+  }
+  #haircut_cost{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+   #col2{
+    transform: translateX(20px);
+  }
+  #col1{
+    transform: translateX(-20px);
+  }
+  #women_haircut1,#women_haircut3,#botocks,#mesoterapy,#haircoloring2,#haircoloring4,#laser2,#laser4,#sugaring2,#sugaring4{
+    padding-top: 20px;
+  }
+  .line, .line2, .line3, .line4{
+    display: inline-block;
+    border-bottom: 1px dashed #a8a8a8;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #procedure_cost .line p, #procedure_cost .line2 p, #procedure_cost .line3 p,#procedure_cost .line4 p{
+    color: rgb(74, 75, 75);
+    font-size: 20px;
+  }
+  #hair_procedure_cost .line,#hair_procedure_cost .line2,#hair_procedure_cost .line3,#hair_procedure_cost .line4{
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #hair_coloring_cost .line, #hair_coloring_cost .line2, #hair_coloring_cost .line3, #hair_coloring_cost .line4{
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #laser_cost .line,#laser_cost .line2,#laser_cost .line3,#laser_cost .line4{
+    width: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  #sugaring_cost .line,#sugaring_cost .line2,#sugaring_cost .line3,#sugaring_cost .line4{
+    width: 100px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  #hair_coloring_cost{
+    display: none;
+  }
+  #hair_procedure_cost{
+    display: none;
+  }
+  #laser_cost{
+    display: none;
+  }
+  #sugaring_cost{
+    display: none;
+  }
+  #priceFooter{
+   margin-top: 0px;
+  }
+}
+@media(min-width:500px) and (max-width:599.9px){
+  #price_block{
+    background: rgb(243, 239, 239);
+    padding-bottom: 200px;
+  }
+  #price_text h1{
+    font-size: 20px;
+    padding-top: 50px;
+    margin-left: 150px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+  color: rgb(63, 62, 62);
+  }
+  #price_text img{
+    width: 100px;
+    transform: translateX(150px);
+  }
+  #price_text p{
+    font-size: 20px;
+    margin-left: 70px;
+    padding-bottom: 20px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    color: rgb(63, 62, 62);
+  }
+  #procedure_names{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  #procedure_names h2{
+    padding: 10px;
+    font-size: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  #procedure_names .active, #procedure_names h2:hover{
+   padding: 10px;
+   color: rgb(87, 86, 86);
+   background: rgb(243, 239, 239);
+   border: 1px solid gray;
+   border-radius: 10px;
+  }
+  hr{
+    margin-right: 27px;
+    margin-left: 50px;
+  }
+  #procedure_cost{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 25px;
+    padding: 40px;
+    background:  white;
+    border-radius: 20px;
+  }
+  #procedure_cost h3{
+    font-size: 13px;
+    color: rgb(69, 67, 67);
+  }
+  #procedure_cost p{
+    color: rgb(177, 172, 172);
+  }
+  #haircut_cost{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+   #col2{
+    transform: translateX(20px);
+  }
+  #col1{
+    transform: translateX(-20px);
+  }
+  #women_haircut1,#women_haircut3,#botocks,#mesoterapy,#haircoloring2,#haircoloring4,#laser2,#laser4,#sugaring2,#sugaring4{
+    padding-top: 20px;
+  }
+  .line, .line2, .line3, .line4{
+    display: inline-block;
+    border-bottom: 1px dashed #a8a8a8;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #procedure_cost .line p, #procedure_cost .line2 p, #procedure_cost .line3 p,#procedure_cost .line4 p{
+    color: rgb(74, 75, 75);
+    font-size: 20px;
+  }
+  #hair_procedure_cost .line,#hair_procedure_cost .line2,#hair_procedure_cost .line3,#hair_procedure_cost .line4{
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #hair_coloring_cost .line, #hair_coloring_cost .line2, #hair_coloring_cost .line3, #hair_coloring_cost .line4{
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #laser_cost .line,#laser_cost .line2,#laser_cost .line3,#laser_cost .line4{
+    width: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  #sugaring_cost .line,#sugaring_cost .line2,#sugaring_cost .line3,#sugaring_cost .line4{
+    width: 100px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  #hair_coloring_cost{
+    display: none;
+  }
+  #hair_procedure_cost{
+    display: none;
+  }
+  #laser_cost{
+    display: none;
+  }
+  #sugaring_cost{
+    display: none;
+  }
+  #priceFooter{
+   margin-top: 0px;
+  }
+}
+@media(min-width:600px) and (max-width:799.9px){
+  #price_block{
+    background: rgb(243, 239, 239);
+    padding-bottom: 200px;
+  }
+  #price_text h1{
+    font-size: 20px;
+    padding-top: 50px;
+    margin-left: 150px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    color: rgb(63, 62, 62);
+  }
+  #price_text img{
+    width: 100px;
+    transform: translateX(150px);
+  }
+  #price_text p{
+    font-size: 20px;
+    margin-left: 70px;
+    padding-bottom: 20px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    color: rgb(63, 62, 62);
+  }
+  #procedure_names{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  #procedure_names h2{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+  }
+  #procedure_names .active, #procedure_names h2:hover{
+   margin-left: 20px;
+   padding: 10px;
+   color: rgb(87, 86, 86);
+   background: rgb(243, 239, 239);
+   border: 1px solid gray;
+   border-radius: 10px;
+  }
+  hr{
+    margin-right: 27px;
+    margin-left: 50px;
+  }
+  #procedure_cost{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 25px;
+    padding: 40px;
+    background:  white;
+    border-radius: 20px;
+  }
+  #procedure_cost h3{
+    font-size: 13px;
+    color: rgb(69, 67, 67);
+  }
+  #procedure_cost p{
+    color: rgb(177, 172, 172);
+  }
+  #haircut_cost{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+   #col2{
+    transform: translateX(20px);
+  }
+  #col1{
+    transform: translateX(-20px);
+  }
+  #women_haircut1,#women_haircut3,#botocks,#mesoterapy,#haircoloring2,#haircoloring4,#laser2,#laser4,#sugaring2,#sugaring4{
+    padding-top: 20px;
+  }
+  .line, .line2, .line3, .line4{
+    display: inline-block;
+    border-bottom: 1px dashed #a8a8a8;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #procedure_cost .line p, #procedure_cost .line2 p, #procedure_cost .line3 p,#procedure_cost .line4 p{
+    color: rgb(74, 75, 75);
+    font-size: 20px;
+  }
+  #hair_procedure_cost .line,#hair_procedure_cost .line2,#hair_procedure_cost .line3,#hair_procedure_cost .line4{
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #hair_coloring_cost .line, #hair_coloring_cost .line2, #hair_coloring_cost .line3, #hair_coloring_cost .line4{
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #laser_cost .line,#laser_cost .line2,#laser_cost .line3,#laser_cost .line4{
+    width: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  #sugaring_cost .line,#sugaring_cost .line2,#sugaring_cost .line3,#sugaring_cost .line4{
+    width: 100px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  #hair_coloring_cost{
+    display: none;
+  }
+  #hair_procedure_cost{
+    display: none;
+  }
+  #laser_cost{
+    display: none;
+  }
+  #sugaring_cost{
+    display: none;
+  }
+  #priceFooter{
+   margin-top: 0px;
+  }
+}
+@media(min-width:800px) and (max-width:899.9px){
+  #price_block{
+    background: rgb(243, 239, 239);
+    padding-bottom: 200px;
+  }
+  #price_text h1{
+    font-size: 30px;
+    margin-left: 350px;
+    padding-top: 50px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    color: rgb(63, 62, 62);
+  }
+  #price_text img{
+    width: 100px;
+    transform: translate(380px,20px);
+  }
+  #price_text p{
+    width: 600px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    color: rgb(63, 62, 62);
+    transform: translate(100px,20px);
+  }
+  #procedure_names{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  #procedure_names h2{
+    margin: 5px ;
+    padding: 5px;
+    color: gray;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  #procedure_names .active, #procedure_names h2:hover{
+   margin: 5px ;
+   padding: 5px;
+   color: rgb(87, 86, 86);
+   background: rgb(243, 239, 239);
+   border: 1px solid gray;
+   border-radius: 10px;
+  }
+  hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: translateY(-10px);
+  }
+  #procedure_cost{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+    background:  white;
+    border-radius: 20px;
+  }
+  #procedure_cost h3{
+    color: rgb(69, 67, 67);
+  }
+  #procedure_cost p{
+    color: rgb(177, 172, 172);
+  }
+  #haircut_cost{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+   #col2{
+    transform: translateX(30px);
+  }
+  #col1{
+    transform: translateX(-15px);
+  }
+  #women_haircut1,#women_haircut3,#botocks,#mesoterapy,#haircoloring2,#haircoloring4,#laser2,#laser4,#sugaring2,#sugaring4{
+    padding-top: 20px;
+  }
+  .line, .line2, .line3, .line4{
+    display: inline-block;
+    border-bottom: 1px dashed #a8a8a8;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #procedure_cost .line p, #procedure_cost .line2 p, #procedure_cost .line3 p,#procedure_cost .line4 p{
+    color: rgb(74, 75, 75);
+    font-size: 20px;
+  }
+  #hair_procedure_cost .line,#hair_procedure_cost .line2,#hair_procedure_cost .line3,#hair_procedure_cost .line4{
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #hair_coloring_cost .line, #hair_coloring_cost .line2, #hair_coloring_cost .line3, #hair_coloring_cost .line4{
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #laser_cost .line,#laser_cost .line2,#laser_cost .line3,#laser_cost .line4{
+    width: 140px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  #sugaring_cost .line,#sugaring_cost .line2,#sugaring_cost .line3,#sugaring_cost .line4{
+    width: 115px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  #price1, #price2,#price3,#price4,#price5,#price6,#price17,#price18,#price19,#price20{
+    width: 160px;
+  }
+  #price6,#price7,#price8,#price9,#price10,#price11,#price12,#price13{
+    width: 170px;
+  }
+  #hair_coloring_cost{
+    display: none;
+  }
+  #hair_procedure_cost{
+    display: none;
+  }
+  #laser_cost{
+    display: none;
+  }
+  #sugaring_cost{
+    display: none;
+  }
+  #priceFooter{
+    margin-top: 0px;
+  }
+}
+@media(min-width:900px) and (max-width:1299.9px){
+  #price_block{
+    background: rgb(243, 239, 239);
+    padding-bottom: 200px;
+  }
+  #price_text h1{
+    font-size: 30px;
+    margin-left: 350px;
+    padding-top: 50px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+  color: rgb(63, 62, 62);
+  }
+  #price_text img{
+    width: 100px;
+    transform: translate(380px,20px);
+  }
+  #price_text p{
+    width: 600px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    color: rgb(63, 62, 62);
+    transform: translate(100px,20px);
+  }
+  #procedure_names{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 80px;
+  }
+  #procedure_names h2{
+    margin: 5px ;
+    margin-left: 10px;
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  #procedure_names .active, #procedure_names h2:hover{
+   margin: 5px ;
+   padding: 10px;
+   color: rgb(87, 86, 86);
+   background: rgb(243, 239, 239);
+   border: 1px solid gray;
+   border-radius: 10px;
+  }
+  hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: translateY(-10px);
+  }
+  #procedure_cost{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+    background:  white;
+    border-radius: 20px;
+  }
+  #procedure_cost h3{
+    color: rgb(69, 67, 67);
+  }
+  #procedure_cost p{
+    color: rgb(177, 172, 172);
+  }
+  #haircut_cost{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+   #col2{
+    transform: translateX(30px);
+  }
+  #col1{
+    transform: translateX(-15px);
+  }
+  #women_haircut1,#women_haircut3,#botocks,#mesoterapy,#haircoloring2,#haircoloring4,#laser2,#laser4,#sugaring2,#sugaring4{
+    padding-top: 20px;
+  }
+  .line, .line2, .line3, .line4{
+    display: inline-block;
+    border-bottom: 1px dashed #a8a8a8;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #procedure_cost .line p, #procedure_cost .line2 p, #procedure_cost .line3 p,#procedure_cost .line4 p{
+    color: rgb(74, 75, 75);
+    font-size: 20px;
+  }
+  #hair_procedure_cost .line,#hair_procedure_cost .line2,#hair_procedure_cost .line3,#hair_procedure_cost .line4{
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #hair_coloring_cost .line, #hair_coloring_cost .line2, #hair_coloring_cost .line3, #hair_coloring_cost .line4{
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #laser_cost .line,#laser_cost .line2,#laser_cost .line3,#laser_cost .line4{
+    width: 140px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  #sugaring_cost .line,#sugaring_cost .line2,#sugaring_cost .line3,#sugaring_cost .line4{
+    width: 115px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  #price1, #price2,#price3,#price4,#price5,#price6,#price17,#price18,#price19,#price20{
+    width: 160px;
+  }
+  #price6,#price7,#price8,#price9,#price10,#price11,#price12,#price13{
+    width: 170px;
+  }
+  #hair_coloring_cost{
+    display: none;
+  }
+  #hair_procedure_cost{
+    display: none;
+  }
+  #laser_cost{
+    display: none;
+  }
+  #sugaring_cost{
+    display: none;
+  }
+  #priceFooter{
+    margin-top: 0px;
+  }
+}
+@media(min-width:1300px){
+#price_block{
+  background: rgb(243, 239, 239);
+  padding-bottom: 200px;
+}
+#price_text{
+  transform: translate(500px,40px);
+}
+#price_text h1{
+  font-size: 35px;
+  letter-spacing: 2px;
+  transform: translate(130px,20px);
+  color: rgb(63, 62, 62);
+  text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+
+}
+#price_text img{
+  width: 100px;
+  transform: translate(170px,20px);
+}
+#price_text p{
+  font-size: 30px;
+  text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+  color: rgb(63, 62, 62);
+  transform: translate(-350px,20px);
+}
+#procedure_names{
+  display: flex;
+  flex-direction: row;
+}
+#procedure_names h2{
+  margin: 5px ;
+  padding: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  transform: translate(150px,100px);
+  color: gray;
+  cursor: pointer;
+}
+#procedure_names .active, #procedure_names h2:hover{
+ margin: 5px ;
+ padding: 5px;
+ padding-right: 30px;
+ padding-left: 30px;
+ color: rgb(87, 86, 86);
+ background: rgb(243, 239, 239);
+ border: 1px solid gray;
+ border-radius: 10px;
+}
+hr{
+  width: 1135px;
+  transform: translate(150px,120px);
+}
+#procedure_cost{
+  width: 1060px;
+  margin-left: 185px;
+  margin-top: 140px;
+  padding: 40px;
+  background:  white;
+  border-radius: 20px;
+}
+#procedure_cost h3{
+  color: rgb(69, 67, 67);
+}
+#procedure_cost p{
+  color: rgb(177, 172, 172);
+}
+#haircut_cost{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ #col2{
+  transform: translateX(50px);
+}
+#col1{
+  transform: translateX(-15px);
+}
+#women_haircut1,#women_haircut3,#botocks,#mesoterapy,#haircoloring2,#haircoloring4,#laser2,#laser4,#sugaring2,#sugaring4{
+  padding-top: 40px;
+}
+.line{
+  display: inline-block;
+  border-bottom: 1px dashed #a8a8a8;
+  width: 200px;
+  transform: translate(155px,-23px);
+}
+.line2{
+  display: inline-block;
+  border-bottom: 1px dashed #a8a8a8;
+  width: 70px;
+  transform: translate(290px,-23px);
+}
+.line3{
+  display: inline-block;
+  border-bottom: 1px dashed #a8a8a8;
+  width: 150px;
+  transform: translate(220px,-23px);
+}
+.line4{
+  display: inline-block;
+  border-bottom: 1px dashed #a8a8a8;
+  width: 180px;
+  transform: translate(200px,-23px);
+}
+#hair_procedure_cost .line{
+  display: inline-block;
+  border-bottom: 1px dashed #a8a8a8;
+  width: 100px;
+  transform: translate(220px,-23px);
+}
+#procedure_cost .line p{
+  color: rgb(74, 75, 75);
+  font-size: 20px;
+  transform: translate(205px,5px);
+}
+#procedure_cost .line2 p{
+  color: rgb(74, 75, 75);
+  font-size: 20px;
+  transform: translate(72px,5px);
+}
+#procedure_cost .line3 p,#procedure_cost .line4 p{
+  color: rgb(74, 75, 75);
+  font-size: 20px;
+  transform: translate(150px,2px);
+}
+#procedure_cost .line4 p{
+  transform: translate(180px,2px);
+}
+#haircut_cost .line2{
+  width: 70px;
+  transform: translate(295px,-25px);
+}
+#price2 {
+  width: 160px;
+}
+#haircut_cost .line3 p{
+  transform: translateX(114px);
+}
+#haircut_cost .line3 {
+  width: 115px;
+  transform: translate(226px,-23px);
+}
+#haircut_cost .line4 p{
+  transform: translateX(130px);
+}
+#haircut_cost .line4 {
+  width: 135px;
+  transform: translate(200px,-23px);
+}
+#hair_procedure_cost .line{
+  transform: translate(220px,-25px);
+}
+#price5 {
+  width: 170px;
+}
+#hair_procedure_cost .line2{
+  width: 180px;
+  transform: translate(130px,-27px);
+}
+#hair_procedure_cost .line3{
+  width: 118px;
+  transform: translate(180px,-27px);
+}
+#price7{
+  width: 170px;
+}
+#hair_procedure_cost .line3 p{
+  transform: translateX(120px);
+}
+#hair_procedure_cost .line4{
+  width: 185px;
+  transform: translate(110px,-27px);
+}
+#hair_procedure_cost .line p{
+  transform: translate(105px,5px);
+}
+#hair_procedure_cost .line2 p{
+  transform: translate(183px,5px);
+}
+#hair_procedure_cost .line4 p{
+  transform: translate(190px,5px);
+}
+#hair_coloring_cost .line{
+  transform: translate(113px,-25px);
+}
+#hair_coloring_cost .line2{
+  width: 225px;
+  transform: translate(75px,-27px);
+}
+#hair_coloring_cost .line3 {
+  width: 225px;
+  transform: translate(63px,-27px);
+}
+#hair_coloring_cost .line4 {
+  width: 185px;
+  transform: translate(100px,-27px);
+}
+#hair_coloring_cost .line2 p{
+  transform: translate(230px,5px);
+}
+#hair_coloring_cost .line3 p{
+  transform: translate(230px,5px);
+}
+#hair_coloring_cost .line4 p{
+  transform: translate(190px,5px);
+}
+#laser_cost .line{
+  width: 225px;
+  transform: translate(95px,-27px);
+}
+#laser_cost .line2{
+  width: 185px;
+  transform: translate(125px,-27px);
+}
+#laser_cost .line3{
+  width: 185px;
+  transform: translate(150px,-27px);
+}
+#laser_cost .line4{
+  width: 255px;
+  transform: translate(80px,-27px);
+}
+#laser_cost .line p,#sugaring_cost .line p{
+  transform: translate(225px,6px);
+}
+#laser_cost .line2 p{
+  transform: translate(185px,6px);
+}
+#laser_cost .line3 p,#sugaring_cost .line3 p{
+  transform: translate(187px,6px);
+}
+#laser_cost .line4 p{
+  transform: translate(255px,4px);
+}
+#sugaring_cost .line{
+  width: 223px;
+  transform: translate(95px,-27px);
+}
+#sugaring_cost .line2{
+  width: 165px;
+  transform: translate(153px,-27px);
+}
+#sugaring_cost .line3{
+  width: 185px;
+  transform: translate(125px,-27px);
+}
+#sugaring_cost .line4{
+  width: 232px;
+  transform: translate(80px,-27px);
+}
+#sugaring_cost .line2 p{
+  transform: translate(165px,6px);
+}
+#sugaring_cost .line4 p{
+  transform: translate(235px,4px);
+}
+#hair_coloring_cost{
+  display: none;
+}
+#hair_procedure_cost{
+  display: none;
+}
+#laser_cost{
+  display: none;
+}
+#sugaring_cost{
+  display: none;
+}
+#priceFooter{
+  transform: translateY(0px);
+}
+}

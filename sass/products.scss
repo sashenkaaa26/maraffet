@@ -1,0 +1,152 @@
+body{
+  overflow-anchor: none;
+}
+#products_text h1{
+  font-size: 30px;
+  margin-left: 400px;
+  padding-top: 50px;
+  text-shadow: 
+  0 1px 0 #ccc, 
+  0 2px 0 #c9c9c9, 
+  0 3px 0 #bbb, 
+  0 4px 0 #b9b9b9, 
+  0 5px 0 #aaa, 
+  0 6px 1px rgba(0,0,0,.1), 
+  0 0 5px rgba(0,0,0,.1), 
+  0 1px 3px rgba(0,0,0,.3), 
+  0 3px 5px rgba(0,0,0,.2), 
+  0 5px 10px rgba(0,0,0,.25), 
+  0 10px 10px rgba(0,0,0,.2), 
+  0 20px 20px rgba(0,0,0,.15);
+  color: rgb(63, 62, 62);
+}
+#products_text img{
+  width: 100px;
+  transform: translate(670px,20px);
+}
+#productsBlock{
+  margin-top: 50px;
+}
+.productsColumn{
+  margin-left: 100px;
+  margin-right: 170px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.product-item {
+  height: 430px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 5px solid #F5F5F5;
+  background: white;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 30px;
+}
+.product-item:hover {
+   border-bottom: 2px solid  gray;
+}
+.product-item img {
+  padding-top: 20px;
+  display: block;
+}
+#abril{
+  width: 60px;
+  margin-left: 70px;
+ }
+#abrilmask{
+  width: 60px;
+  margin-left: 70px;
+ }
+#abrilshampoo1{
+  width: 150px;
+  margin-left: 20px;
+ }
+#abrilshampoo2{
+ width: 45px;
+ margin-left: 70px;
+}
+#keune{
+  width: 70px;
+  margin-left: 60px;
+  padding-bottom: 25px;
+}
+#keune2{
+  width: 200px;
+}
+#keune3{
+  width: 100px;
+  margin-left: 50px;
+}
+.product-list {
+  width: 200px;
+  background: #fafafa;
+  padding: 15px 0;
+  border-radius: 30px;
+}
+.product-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(63, 62, 62);
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: gray;
+  display: block;
+  margin-bottom: 12px;
+}
+.product-item:hover .price{
+  color: rgb(63, 62, 62);
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  background: #cccccc;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .3s ease-in;
+}
+.closeModalCart{
+  display: none;
+}
+.product-item:hover .button {
+  background: rgb(63, 62, 62);
+}
+@media (min-width:360px) and (max-width:799.9px){
+  #products_text h1{
+    margin-left: 50px;
+  }
+  #products_text img{
+    transform: translate(150px,20px);
+  }
+  .productsColumn{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .product-item {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width:800px) and (max-width:1299px){
+  #products_text h1{
+    font-size: 30px;
+    margin-left: 150px;
+  }
+  #products_text img{
+    transform: translate(340px,20px);
+  }
+  .productsColumn{
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .product-item {
+    margin-top: 50px;
+  }
+}

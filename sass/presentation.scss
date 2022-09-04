@@ -1,0 +1,137 @@
+
+@media (min-width: 360px) and(max-width:799.9px){
+  #presentation img{
+    max-width: 490px;
+    max-width: 100%;
+    position: absolute;
+  }
+  #presentation h1,#presentation h3{
+    position: relative;
+    margin-left: 50px;
+    padding-top: 20px;
+    color: white;
+  }
+  #presentation h1{
+    font-size: 13px;
+  }
+  #presentation h3{
+    width: 150px;
+    font-size: 13px;
+  }
+  #presentation2 {
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background: rgb(34, 36, 38);
+  }
+  #presentation2 h1{
+    max-width: 100%;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    color: white;
+    font-size: 15px;
+  }
+  .interior{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+    background: gray;
+    border-radius: 10px;
+  }
+  #presentation2 img{
+    max-width:100% ;
+  }
+}
+@media (min-width: 800px) and(max-width:1179.9px){
+  #presentation img{
+    max-width: 100%;
+    position: absolute;
+  }
+  #presentation h1,#presentation h3{
+    margin-left: 100px;
+    padding-top: 30px;
+    position: relative;
+    color: white;
+  }
+  #presentation h1{
+    font-size: 28px;
+  }
+  #presentation h3{
+    width: 300px;
+    font-size: 20px;
+  }
+  #presentation2 {
+    max-width: 100%;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    background: rgb(34, 36, 38);
+  }
+  #presentation2 h1{
+    padding-bottom: 20px;
+    padding-left: 100px;
+    color: white;
+    font-size: 30px;
+  }
+  .interior{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 25px;
+    background: gray;
+    border-radius: 10px;
+  }
+  #presentation2 img{
+    max-width: 100%;
+  }
+}
+
+@media(min-width:1180px) {
+#presentation img{
+  max-width: 100%;
+  position: absolute;
+}
+ #presentation h1,#presentation h3{
+  position: relative;
+  transform: translate(150px,200px);
+  color: white;
+}
+#presentation h1{
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+#presentation2 {
+  max-width: 100%;
+  padding-top: 600px;
+  padding-bottom: 50px;
+  background: rgb(34, 36, 38);
+}
+#presentation2 h1{
+  max-width: 100%;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  color: white;
+  font-size: 52px;
+}
+#interiorContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.interior{
+  max-width: 100%;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 25px;
+  background: gray;
+  border-radius: 10px;
+}
+#presentation2 img{
+  max-width: 100%;
+}
+.imgpadding{
+  padding-top: 150px;
+}
+}
